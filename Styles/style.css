@@ -275,7 +275,7 @@ main{
     background-color: tomato;
     color: white;
     position: absolute;
-    right: 10px;
+    right: 20px;
 }
 
 .subscribe input,button{
@@ -283,6 +283,11 @@ main{
     border-style: none;
     border-radius: 10px;
 
+}
+
+
+.subscribe input:focus{
+    outline: none;
 }
 
 /* FOOTER  */
@@ -300,11 +305,9 @@ footer{
     overflow: hidden;
 }
 
-.footer-content h2{
-    font-family: ;
-}
-
 .footer-content h2,p{
     padding-bottom:20px ;
     
 }
+
+
